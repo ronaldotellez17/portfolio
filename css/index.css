@@ -1,0 +1,46 @@
+.content {
+    background-color: #f6f7f9;
+    min-height: 80%;
+    width: 90%;
+    padding: 0% 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#picture{
+    width: 25%;
+    height: 25%;
+    border-radius: 5px;
+    object-fit: contain;
+    box-shadow: 1rem -1rem #8773EE;
+}
+
+.info {
+    width: 60%;
+    color: #898A8B;
+}
+
+#info-container { width: 50%;}
+
+#info-container { margin: 20px 0;}
+
+#info-container h1 {font-size: 40px;}
+
+#button-container > * {margin: 20px 20px 20px 0;}
+
+#button-container button {
+    padding: 10px; border-radius: 5px; font-weight: bold;
+}
+
+#contact-button {
+    background-color: #8773EE;
+    color: #fff;
+    border: none;
+}
+
+#portfolio-button {
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #000;
+}
